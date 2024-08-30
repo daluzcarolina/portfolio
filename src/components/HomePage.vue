@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img src="public\Designer (2).png" alt="Logo" class="Logo">
+    <img src="/Designer.png" alt="Logo" class="Logo">
     <h1>Welcome to My Portfolio</h1>
     <p>
       I am Carolina da Luz Silva. I was born in 1997 in Brazil, where I currently live. I speak advanced English and I am learning French. I am passionate about data science and aspire to develop my career in this field. Learn more about my projects and get in touch.
@@ -41,5 +41,11 @@ p {
   margin: 0 auto;
   color: #555;
 }
+
+.Logo {
+  width: 300px; /* Ajuste o tamanho do logotipo conforme necessário */
+  height: auto;
+}
+
 </style>
 
